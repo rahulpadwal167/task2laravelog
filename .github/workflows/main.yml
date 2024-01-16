@@ -35,7 +35,7 @@ jobs:
       run: git remote -v
 
     - name: Push changes to the new repository
-      run: git push --mirror https://secretone@github.com/rahulpadwal167/finaltest.git
+      run: git push --mirror https://secret@github.com/rahulpadwal167/finaltest.git
 
 
     - name: Fetch tags from the original repository
